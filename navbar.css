@@ -1,0 +1,25 @@
+li a{
+    
+    display: block;
+    color:white;
+    padding: 15px 16px;
+    font-size: 20px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #555;
+    color: white;
+}
+.active{
+    background-color: #555;
+    color: black;
+}
+ul{
+    list-style-type: none;
+    margin-top: 25px;
+    padding: 0;
+    width: 15%;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
